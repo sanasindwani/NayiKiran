@@ -1,0 +1,175 @@
+{
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "upload": "Upload",
+    "download": "Download",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "retry": "पुनः प्रयास करें"
+  },
+  "navigation": {
+    "home": "होम",
+    "login": "लॉगिन",
+    "signup": "साइन अप",
+    "logout": "लॉगआउट",
+    "profile": "प्रोफाइल",
+    "settings": "सेटिंग्स",
+    "dashboard": "डैशबोर्ड",
+    "about": "हमारे बारे में",
+    "contact": "संपर्क करें"
+  },
+  "auth": {
+    "login": {
+      "title": "Login to Your Account",
+      "email": "Email",
+      "password": "Password",
+      "forgotPassword": "Forgot Password?",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign Up",
+      "rememberMe": "Remember Me",
+      "loginButton": "Login"
+    },
+    "signup": {
+      "title": "Create Your Account",
+      "fullName": "Full Name",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "hasAccount": "Already have an account?",
+      "login": "Login",
+      "signUpButton": "Sign Up"
+    }
+  },
+  "home": {
+    "welcome": "Welcome to Chaat App",
+    "subtitle": "Your comprehensive platform for legal rights, education, and community support",
+    "features": {
+      "legal": "Legal Rights & Defense",
+      "education": "Education & Schools",
+      "community": "Community Forum",
+      "documents": "Document Management",
+      "emergency": "Emergency Support"
+    }
+  },
+  "schools": {
+    "title": "आपके पास के स्कूल",
+    "subtitle": "अपने क्षेत्र में शैक्षिक संस्थानों को खोजें और देखें",
+    "searchPlaceholder": "नाम, पता, या प्रकार द्वारा स्कूल खोजें...",
+    "locateMe": "मुझे लोकेट करें",
+    "schoolsFound": "{{count}} स्कूल मिले",
+    "loading": "स्कूल लोड हो रहे हैं...",
+    "noSchools": "इस क्षेत्र में कोई स्कूल नहीं मिला",
+    "type": {
+      "government": "सरकारी",
+      "private": "निजी",
+      "charter": "चार्टर"
+    },
+    "facilities": "सुविधाएं",
+    "contact": "संपर्क",
+    "rating": "रेटिंग",
+    "address": "पता"
+  },
+  "documents": {
+    "title": "दस्तावेज़ OCR मैनेजर",
+    "subtitle": "दस्तावेज़ अपलोड करें और OCR तकनीक का उपयोग करके खोजने योग्य पाठ निकालें",
+    "dragDrop": "दस्तावेज़ों को यहां खींचें और छोड़ें, या चुनने के लिए क्लिक करें",
+    "supportedFormats": "चित्र, PDF और टेक्स्ट फाइलों का समर्थन करता है",
+    "dropFiles": "फाइलों को यहां छोड़ें...",
+    "searchPlaceholder": "नाम, सामग्री, या टैग द्वारा दस्तावेज़ खोजें...",
+    "processing": "OCR के साथ दस्तावेज़ों की प्रक्रिया हो रही है...",
+    "noDocuments": "अभी तक कोई दस्तावेज़ नहीं",
+    "uploadSome": "OCR के साथ शुरू करने के लिए कुछ दस्तावेज़ अपलोड करें",
+    "testModal": "टेस्ट मोडल",
+    "viewDocument": "दस्तावेज़ देखें",
+    "extractedText": "निकाला गया पाठ",
+    "noTextExtracted": "कोई पाठ निकाला नहीं गया",
+    "wordsExtracted": "{{count}} शब्द निकाले गए",
+    "confidence": "विश्वास: {{percent}}%",
+    "processingOCR": "OCR प्रसंस्करण...",
+    "downloadText": "निकाला गया पाठ डाउनलोड करें"
+  },
+  "childcare": {
+    "title": "बाल देखभाल संरक्षण",
+    "subtitle": "बाल अधिकारों और संरक्षण के लिए व्यापक गाइड",
+    "schoolEnrollment": "स्कूल प्रवेश",
+    "governmentSchemes": "सरकारी योजनाएं",
+    "childRights": "बाल अधिकार",
+    "exploitationPrevention": "शोषण रोकथाम",
+    "emergencyHelplines": "आपातकालीन हेल्पलाइन",
+    "rightToEducation": "शिक्षा का अधिकार",
+    "constitutionalRights": "संवैधानिक अधिकार",
+    "legalFramework": "कानूनी ढांचा",
+    "reporting": "रिपोर्टिंग",
+    "rescue": "बचाव",
+    "rehabilitation": "पुनर्वास"
+  },
+  "legal": {
+    "title": "कानूनी अधिकार और बचाव",
+    "subtitle": "अपने अधिकार जानें और कानूनी सहायता प्राप्त करें",
+    "legalDefense": "कानूनी बचाव पाठ्यक्रम",
+    "policeHarassment": "पुलिस उत्पीड़न मॉड्यूल",
+    "emergencyAction": "आपातकालीन कार्रवाई मॉड्यूल",
+    "interactiveScenario": "इंटरैक्टिव परिदृश्य",
+    "knowYourRights": "अपने अधिकार जानें",
+    "legalAid": "कानूनी सहायता",
+    "fileComplaint": "शिकायत दर्ज करें",
+    "emergencyContacts": "आपातकालीन संपर्क"
+  },
+  "community": {
+    "title": "सामुदायिक मंच",
+    "subtitle": "दूसरों के साथ जुड़ें और अनुभव साझा करें",
+    "createPost": "पोस्ट बनाएं",
+    "joinDiscussion": "चर्चा में शामिल हों",
+    "shareStory": "अपनी कहानी साझा करें",
+    "getAdvice": "सलाह प्राप्त करें",
+    "supportOthers": "दूसरों का समर्थन करें"
+  },
+  "errors": {
+    "pageNotFound": "Page Not Found",
+    "serverError": "Server Error",
+    "networkError": "Network Error",
+    "unauthorized": "Unauthorized Access",
+    "forbidden": "Access Forbidden",
+    "somethingWentWrong": "Something went wrong",
+    "tryAgain": "Please try again"
+  },
+  "success": {
+    "saved": "Saved successfully",
+    "updated": "Updated successfully",
+    "deleted": "Deleted successfully",
+    "uploaded": "Uploaded successfully",
+    "downloaded": "Downloaded successfully"
+  },
+  "language": {
+    "switch": "Switch Language",
+    "english": "English",
+    "hindi": "Hindi",
+    "current": "Current Language"
+  },
+  "navbar": {
+    "logoAlt": "सरकारी लोगो",
+    "helplineTitle": "महिला हेल्पलाइन नंबर",
+    "helplineNumber": "1800-11-9292",
+    "emergencyTitle": "आपातकालीन नंबर",
+    "emergencyNumber": "112",
+    "skillDevelopment": "कौशल विकास",
+    "jobDiscovery": "नौकरी खोज",
+    "chatbot": "मनो साथी (चैटबोट)",
+    "successStories": "सफलता की कहानियां"
+  }
+}

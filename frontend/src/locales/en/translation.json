@@ -1,0 +1,174 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "upload": "Upload",
+    "download": "Download",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "navigation": {
+    "home": "Home",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "profile": "Profile",
+    "settings": "Settings",
+    "dashboard": "Dashboard",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "auth": {
+    "login": {
+      "title": "Login to Your Account",
+      "email": "Email",
+      "password": "Password",
+      "forgotPassword": "Forgot Password?",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign Up",
+      "rememberMe": "Remember Me",
+      "loginButton": "Login"
+    },
+    "signup": {
+      "title": "Create Your Account",
+      "fullName": "Full Name",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "hasAccount": "Already have an account?",
+      "login": "Login",
+      "signUpButton": "Sign Up"
+    }
+  },
+  "home": {
+    "welcome": "Welcome to Chaat App",
+    "subtitle": "Your comprehensive platform for legal rights, education, and community support",
+    "features": {
+      "legal": "Legal Rights & Defense",
+      "education": "Education & Schools",
+      "community": "Community Forum",
+      "documents": "Document Management",
+      "emergency": "Emergency Support"
+    }
+  },
+  "schools": {
+    "title": "Schools Near You",
+    "subtitle": "Find and explore educational institutions in your area",
+    "searchPlaceholder": "Search schools by name, address, or type...",
+    "locateMe": "Locate Me",
+    "schoolsFound": "{{count}} Schools Found",
+    "loading": "Loading Schools...",
+    "noSchools": "No schools found in this area",
+    "type": {
+      "government": "Government",
+      "private": "Private",
+      "charter": "Charter"
+    },
+    "facilities": "Facilities",
+    "contact": "Contact",
+    "rating": "Rating",
+    "address": "Address"
+  },
+  "documents": {
+    "title": "Document OCR Manager",
+    "subtitle": "Upload documents and extract searchable text using OCR technology",
+    "dragDrop": "Drag & drop documents here, or click to select",
+    "supportedFormats": "Supports images, PDFs, and text files",
+    "dropFiles": "Drop the files here...",
+    "searchPlaceholder": "Search documents by name, content, or tags...",
+    "processing": "Processing documents with OCR...",
+    "noDocuments": "No documents yet",
+    "uploadSome": "Upload some documents to get started with OCR",
+    "testModal": "Test Modal",
+    "viewDocument": "View Document",
+    "extractedText": "Extracted Text",
+    "noTextExtracted": "No text extracted",
+    "wordsExtracted": "{{count}} words extracted",
+    "confidence": "Confidence: {{percent}}%",
+    "processingOCR": "Processing OCR...",
+    "downloadText": "Download extracted text"
+  },
+  "childcare": {
+    "title": "Childcare Protection",
+    "subtitle": "Comprehensive guide to child rights and protection",
+    "schoolEnrollment": "School Enrollment",
+    "governmentSchemes": "Government Schemes",
+    "childRights": "Child Rights",
+    "exploitationPrevention": "Exploitation Prevention",
+    "emergencyHelplines": "Emergency Helplines",
+    "rightToEducation": "Right to Education",
+    "constitutionalRights": "Constitutional Rights",
+    "legalFramework": "Legal Framework",
+    "reporting": "Reporting",
+    "rescue": "Rescue",
+    "rehabilitation": "Rehabilitation"
+  },
+  "legal": {
+    "title": "Legal Rights & Defense",
+    "subtitle": "Know your rights and get legal support",
+    "legalDefense": "Legal Defense Course",
+    "policeHarassment": "Police Harassment Module",
+    "emergencyAction": "Emergency Action Module",
+    "interactiveScenario": "Interactive Scenarios",
+    "knowYourRights": "Know Your Rights",
+    "legalAid": "Legal Aid",
+    "fileComplaint": "File Complaint",
+    "emergencyContacts": "Emergency Contacts"
+  },
+  "community": {
+    "title": "Community Forum",
+    "subtitle": "Connect with others and share experiences",
+    "createPost": "Create Post",
+    "joinDiscussion": "Join Discussion",
+    "shareStory": "Share Your Story",
+    "getAdvice": "Get Advice",
+    "supportOthers": "Support Others"
+  },
+  "errors": {
+    "pageNotFound": "Page Not Found",
+    "serverError": "Server Error",
+    "networkError": "Network Error",
+    "unauthorized": "Unauthorized Access",
+    "forbidden": "Access Forbidden",
+    "somethingWentWrong": "Something went wrong",
+    "tryAgain": "Please try again"
+  },
+  "success": {
+    "saved": "Saved successfully",
+    "updated": "Updated successfully",
+    "deleted": "Deleted successfully",
+    "uploaded": "Uploaded successfully",
+    "downloaded": "Downloaded successfully"
+  },
+  "language": {
+    "switch": "Switch Language",
+    "english": "English",
+    "hindi": "Hindi",
+    "current": "Current Language"
+  },
+  "navbar": {
+    "logoAlt": "Government Logo",
+    "helplineTitle": "Women Helpline Number",
+    "helplineNumber": "1800-11-9292",
+    "emergencyTitle": "For Emergency",
+    "emergencyNumber": "112",
+    "skillDevelopment": "Skill Development",
+    "jobDiscovery": "Job Discovery",
+    "chatbot": "Mano Sathi (Chatbot)",
+    "successStories": "Success Stories"
+  }
+}
