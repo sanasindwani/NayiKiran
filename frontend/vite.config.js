@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {  // Proxy all requests starting with /api
-        target: 'https://nayikiran-pg0l.onrender.com', // Your backend URL
+        target: 'https://nayikiranss.onrender.com', // Your backend URL
         changeOrigin: true,
         secure: false,
 

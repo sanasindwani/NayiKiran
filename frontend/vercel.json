@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/(.*)",
-            "destination": "https://nayikiran-pg0l.onrender.com/api/$1"
+            "destination": "https://nayikiranss.onrender.com/api/$1"
         },
         {
             "source": "/(.*)",
