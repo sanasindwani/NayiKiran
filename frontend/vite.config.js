@@ -4,13 +4,13 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   server: {
-    port:3000,
+    port: 3000,
     proxy: {
       '/api': {  // Proxy all requests starting with /api
-        target: 'http://localhost:5000', // Your backend URL
+        target: 'https://nayikiran-pg0l.onrender.com', // Your backend URL
         changeOrigin: true,
         secure: false,
-        
+
       }
     }
   }
