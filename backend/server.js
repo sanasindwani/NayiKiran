@@ -29,20 +29,20 @@ app.use(cookieParser());
 app.use("/api/auth", authRoutes);
 app.use("/api/posts", postRoutes);
 app.use("/api/gemini", geminiRoutes);
-app.use("/api/rights",rightsRoutes);
+app.use("/api/rights", rightsRoutes);
 app.use("/api/success-stories", successStoryRoutes);
 app.use("/api/legal-defense", legalDefenseRoutes);
 app.use("/api/childcare-protection", childcareProtectionRoutes);
 app.use("/api/schools", schoolRoutes);
 app.use("/api/documents", documentRoutes);
 
-
+/*
 app.use(express.static(path.join(__dirname, "/frontend/dist")));
 
 app.get("*",(req,res)=>{
   res.sendFile(path.join(__dirname,"frontend","dist","index.html"));
 })
-
+*/
 
 
 // Start the server

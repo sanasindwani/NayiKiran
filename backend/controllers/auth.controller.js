@@ -62,7 +62,7 @@ export const login = async (req, res) => {
       return res.status(400).json({ error: "Invalid username or password" });
     }
 
-    const isPasswordCorrect = await bcrypt.compare(password, user?.password ||"");
+    const isPasswordCorrect = await bcrypt.compare(password, user?.password || "");
 
     if (!isPasswordCorrect) {
       return res.status(400).json({ error: "Invalid username or password" });
@@ -70,10 +70,6 @@ export const login = async (req, res) => {
 
     // Generate JWT token and set it in cookie
     generateTokenAndSetCookie(user._id, res);
-    
-
-    // Log the generated token for debugging
-    console.log('Generated token:', req.cookies.jwt); // or console log token directly if returned from generateTokenAndSetCookie
 
     res.status(200).json({
       _id: user._id,
